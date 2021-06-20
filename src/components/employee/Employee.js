@@ -22,9 +22,10 @@ class Employee extends React.Component {
 
     addEmployee() {
         this.props.employees.push( { name: "Suresh", dept: "IT" } ) ;
-        //console.log(this.props.employees);
+        console.log(this.props.employees);
 
-        alert('Employee added successfully');
+       // alert('Employee added successfully');
+        
     }
 
     render() {
